@@ -1,0 +1,29 @@
+{
+  "name": "mainblocs-types",
+  "version": "1.0.0",
+  "description": "types for my mainblocs",
+  "types": "schema/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/your-username/my-types-package.git"
+  },
+  "keywords": [
+    "typescript",
+    "types"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/your-username/my-types-package/issues"
+  },
+  "homepage": "https://github.com/your-username/my-types-package#readme",
+  "devDependencies": {
+    "typescript": "^4.5.2"
+  },
+  "dependencies": {
+    "zod": "^3.22.2"
+  }
+}

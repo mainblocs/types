@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "CommonJS",
+    "rootDir": "./schema",  // Directory to start compiling from
+    "outDir": "./dist",  // Directory to output compiled files. Useful if you have any non-declaration TypeScript files in the project.
+    "declaration": true,  // Generate .d.ts declaration files
+    "strict": true,  // Enable strict type checking
+    "esModuleInterop": true  // Enables ES6 module interoperability
+  },
+  "include": [
+    "src/**/*.ts"  // Assuming your type definitions are in a "src" directory
+, "schema/index.d.ts"  ],
+  "exclude": [
+    "node_modules",
+    "**/*.test.ts"
+  ]
+}
